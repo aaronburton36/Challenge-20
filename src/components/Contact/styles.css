@@ -1,0 +1,18 @@
+.contact {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.contact h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.contact p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #666;
+}

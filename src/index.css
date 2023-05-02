@@ -1,0 +1,275 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #0077c2;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  margin-top: 50px;
+}
+
+.copy {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Home styles */
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.home h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.home p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #555;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* About styles */
+.about {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.about p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+/* Portfolio styles */
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 50px;
+  margin-top: 50px;
+}
+
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.project:hover .overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.desc {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Contact styles */
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 140px);
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  padding: 50px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.textarea {
+  height: 150px;
+}
+
+.submit-btn {
+  background-color: #0077c2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  opacity: 0.8;
+}
+
+/* Resume styles */
+.resume {
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.resume h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+}
+
+.resume h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 30px;
+}
+
+.resume h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 20px;
+}
+
+.resume p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 20px;
+}
