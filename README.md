@@ -1,61 +1,26 @@
-# Project Name
+React Portfolio
+A portfolio website created using React to showcase a web developer's projects and skills.
 
-A brief description of the project.
+Installation
+To get started, clone the repository to your local machine and run npm install to install the necessary dependencies. Once the dependencies are installed, run npm start to start the development server and view the website.
 
-## Table of Contents
+Usage
+The portfolio website consists of a header, a section for content, and a footer. The header contains the developer's name and navigation with titles corresponding to different sections of the portfolio. The navigation titles include About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+When you click on a navigation title, you are presented with the corresponding section below the navigation without the page reloading and that title is highlighted. When you load the portfolio the first time, the About Me title and section are selected by default.
 
----
+When you are presented with the About Me section, you see a recent photo or avatar of the developer and a short bio about them. When you are presented with the Portfolio section, you see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository.
 
-## Installation
+When you are presented with the Contact section, you see a contact form with fields for a name, an email address, and a message. If you move your cursor out of one of the form fields without entering text, you receive a notification that this field is required. If you enter text into the email address field, you receive a notification if you have entered an invalid email address.
 
-Instructions for installing and running the project. This section should be detailed enough so that someone who is not familiar with the project can get it up and running.
+When you are presented with the Resume section, you see a link to a downloadable resume and a list of the developer’s proficiencies.
 
-For example:
-
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies using `npm install`.
-3. Run the application using `npm start`.
-
----
-
-## Usage
-
-Instructions for how to use the project. This section should describe the various features and functionality of the project.
-
-For example:
-
-To use the web application, simply navigate to the homepage and follow the on-screen instructions. You can create an account, login, and start using all the available features of the website. Some notable features include:
-
-- Search for products
-- Add products to cart
-- Checkout and purchase products
-
----
-
-## Contributing
-
-Instructions for how others can contribute to the project. This section should outline the guidelines for contributing, including coding standards, pull request requirements, and any other relevant information.
-
-For example:
-
+Contributing
 We welcome contributions from anyone interested in improving this project. To contribute, please follow these guidelines:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes and push your branch to GitHub.
-4. Submit a pull request with a clear description of your changes and why they should be included.
-
----
-
-## License
-
-The license under which the project is distributed. This section should provide information about the license and any restrictions or requirements associated with it.
-
-For example:
-
-This project is licensed under the MIT License. See [LICENSE.txt](LICENSE.txt) for more information.
+Fork the repository.
+Create a new branch for your feature or bugfix.
+Commit your changes and push your branch to GitHub.
+Submit a pull request with a clear description of your changes and why they should be included.
+License
+This project is licensed under the MIT License. See LICENSE.txt for more information.
